@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "77e8ed92-1ff2-49eb-8917-b8050644bfd6"
+        },
+        "resourceGroupName": {
+            "value": "newtomcatwebappsbala_group"
+        },
+        "name": {
+            "value": "newtomcatwebappsbala"
+        },
+        "location": {
+            "value": "East US 2"
+        },
+        "hostingPlanName": {
+            "value": "ASP-newtomcatwebappsbalagroup-b59b"
+        },
+        "serverFarmResourceGroup": {
+            "value": "newtomcatwebappsbala_group"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "sku": {
+            "value": "Basic"
+        },
+        "skuCode": {
+            "value": "B1"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "linuxFxVersion": {
+            "value": "TOMCAT|9.0-jre8"
+        }
+    }
+}

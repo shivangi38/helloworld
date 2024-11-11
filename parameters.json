@@ -6,19 +6,19 @@
             "value": "77e8ed92-1ff2-49eb-8917-b8050644bfd6"
         },
         "resourceGroupName": {
-            "value": "newtomcatwebappsbala_group"
+            "value": "azureappsvcwe_group"
         },
         "name": {
-            "value": "newtomcatwebappsbala"
+            "value": "azureappsvcwebapp"
         },
         "location": {
-            "value": "East US 2"
+            "value": "West US"
         },
         "hostingPlanName": {
-            "value": "ASP-newtomcatwebappsbalagroup-b59b"
+            "value": "ASP-azureappsvcwegroup-b8d5"
         },
         "serverFarmResourceGroup": {
-            "value": "newtomcatwebappsbala_group"
+            "value": "azureappsvcwe_group"
         },
         "alwaysOn": {
             "value": false

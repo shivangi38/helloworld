@@ -52,7 +52,16 @@
           <autoVersionSubmodules>true</autoVersionSubmodules>
         </configuration>
       </plugin>
-
+      <plugin>
+      <groupId>org.apache.tomcat.maven</groupId>
+      <artifactId>tomcat7-maven-plugin</artifactId> <!-- still works with Tomcat 9 -->
+      <version>2.2</version>
+      <configuration>
+        <url>http://localhost:8081/manager/text</url>
+        <server>TomcatServer</server>
+        <path>/webapp</path>
+      </configuration>
+    </plugin>
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
         <configuration>

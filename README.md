@@ -12,3 +12,7 @@ sudo systemctl enable tomcat
 connect to VM and run below commands on VM
 sudo chown ec2-user:ec2-user /var/lib/tomcat/webapps
 sudo chmod 777 /var/lib/tomcat/webapps
+
+
+
+
